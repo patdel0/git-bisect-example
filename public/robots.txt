@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://timelite.bythewood.me/sitemap.xml
