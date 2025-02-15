@@ -55,6 +55,7 @@ const Timer = () => {
           <ResetButton
             className="timer__button"
             type="reset"
+            onClick={() => dispatch({ type: "NEW_TIMER" })}
           >
             - {strings.reset}
           </ResetButton>
