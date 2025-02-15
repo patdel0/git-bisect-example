@@ -151,7 +151,7 @@ const Button = styled.button`
 `;
 
 const ResetButton = styled(Button)`
-  background: ${(props) => props.theme.colors.two};
+  background: ${(props) => props.theme.colors.three};
 `;
 
 const AddButton = styled(Button)`
