@@ -35,7 +35,7 @@ const reducer = (state, action) => {
       };
       localForage.setItem("context", newState);
       return newState;
-    case "NEW_TIMER":
+    case "RESET_TIMER":
       newState = {
         ...state,
         timer: new Date(),
